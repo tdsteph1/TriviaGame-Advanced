@@ -482,7 +482,10 @@ function decrement()
 
 
 		//Increment (unAnswered) to display so we can display the total questions we did Not answer
-		unAnswered++;	
+		unAnswered++;
+
+		//Increment (inCorrect) so we can display the total questions we got correct
+		inCorrect++;
 
 		//incrment so we can move on to Q2 or Q3 or Q4 or next index that contains the next Question to load.
 		questionIndex++;
