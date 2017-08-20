@@ -50,6 +50,12 @@ h4:hover
 
 	 display: none;
 }
+
+#resetButton
+{
+	background: red;
+}
+
 .result
 {
 	text-align: center;

@@ -565,3 +565,13 @@ function displayResults()
 	$("#unanswered").text(unAnswered);
 
 }
+
+//function6
+//Restart Everything
+$("#resetButton").on("click", function()
+{
+
+	//reload page
+	location.reload();
+
+});
